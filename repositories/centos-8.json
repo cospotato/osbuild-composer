@@ -1,6 +1,11 @@
 {
   "aarch64": [
     {
+      "name": "local",
+      "baseurl": "file:///data/repo/",
+      "check_gpg": false
+    },
+    {
       "name": "AppStream",
       "baseurl": "https://download.rockylinux.org/pub/rocky/8/AppStream/aarch64/os/",
       "check_gpg": false
@@ -8,6 +13,11 @@
     {
       "name": "BaseOS",
       "baseurl": "https://download.rockylinux.org/pub/rocky/8/BaseOS/aarch64/os/",
+      "check_gpg": false
+    },
+    {
+      "name": "docker-ce-stable",
+      "baseurl": "https://download.docker.com/linux/centos/8/aarch64/stable",
       "check_gpg": false
     }
   ],
@@ -24,7 +34,12 @@
     }
   ],
   "x86_64": [
-   {
+    {
+      "name": "local",
+      "baseurl": "file:///data/repo/",
+      "check_gpg": false
+    },
+    {
       "name": "AppStream",
       "baseurl": "https://download.rockylinux.org/pub/rocky/8/AppStream/x86_64/os/",
       "check_gpg": false
@@ -32,6 +47,11 @@
     {
       "name": "BaseOS",
       "baseurl": "https://download.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/",
+      "check_gpg": false
+    },
+    {
+      "name": "docker-ce-stable",
+      "baseurl": "https://download.docker.com/linux/centos/8/x86_64/stable",
       "check_gpg": false
     }
   ]
