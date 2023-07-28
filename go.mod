@@ -4,6 +4,8 @@ go 1.19
 
 exclude github.com/mattn/go-sqlite3 v2.0.3+incompatible
 
+replace github.com/osbuild/images => github.com/cospotato/osbuild-images v0.0.0-20230727071029-93c1259ba30c
+
 require (
 	cloud.google.com/go/compute v1.22.0
 	cloud.google.com/go/storage v1.31.0
@@ -12,7 +14,7 @@ require (
 	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.12
 	github.com/BurntSushi/toml v1.3.2
-	github.com/aws/aws-sdk-go v1.44.304
+	github.com/aws/aws-sdk-go v1.44.306
 	github.com/coreos/go-semver v0.3.1
 	github.com/coreos/go-systemd v0.0.0-20190719114852-fd7a80b32e1f
 	github.com/deepmap/oapi-codegen v1.8.2
